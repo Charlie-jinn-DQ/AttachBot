@@ -10,12 +10,12 @@ from telegram import ParseMode
 
 def start(update, context):
   context.bot.send_message(chat_id=update.effective_chat.id, text=f"""Hi [{update.message.from_user.first_name}](tg://user?id={update.message.from_user.id}) 😍.
-  I am *Attach Bot*
+I am *Attach Bot*
 
- 'I can attach medias to your long text 😎`
+'I can attach medias to your long text 😎`
  
- ☛  *Send any media, and reply the text you want, to generate the attached post*
+☛  *Send any media, and reply the text you want, to generate the attached post*
  
- ☛ */help* for more details
+☛ */help* for more details
   
- ☛ *Channel:*© @DX_BotZ""", parse_mode=ParseMode.MARKDOWN)
+☛ *Channel:*© @DX_BotZ""", parse_mode=ParseMode.MARKDOWN)
