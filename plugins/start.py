@@ -15,6 +15,6 @@ def start(update, context):
 
   ☛ *Send any media, and reply the text you want, to generate the attached post*
 
-  ☛ *Channel:*© *@DX\_BotZ*
+  ☛ *Channel:*© *@DX_BotZ*
 
   /help to more details...""", parse_mode=ParseMode.MARKDOWN)
