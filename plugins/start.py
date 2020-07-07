@@ -13,8 +13,8 @@ def start(update, context):
                            
                            'I can attach medias to your long text.'
                            
-                           ☛  *Send any media, and reply the text you want, to generate the attached post*
+                            *Send any media, and reply the text you want, to generate the attached post*
                            
-                           ☛ */help* to get help...
+                            */help* to get help...
                            
-                           ☛ *Channel:*© @DX_BotZ""", parse_mode=ParseMode.MARKDOWN)
+                            *Channel:* @DX_BotZ""", parse_mode=ParseMode.MARKDOWN)
