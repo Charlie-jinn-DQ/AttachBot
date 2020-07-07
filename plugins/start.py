@@ -15,6 +15,6 @@ def start(update, context):
 
   `I can attach medias to your long text `.
 
-  *Send any media, and reply the text you want, to generate the attached post*
+  ☛*Send any media, and reply the text you want, to generate the attached post*
 
   I can attach medias to your long text.""", parse_mode=ParseMode.MARKDOWN)
