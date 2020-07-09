@@ -13,7 +13,7 @@ def attach(update, context):
     update.message.reply_text("""Reply to a media to get an attached Media. 
     
 For more help watch this video,
-👉 https://t.me/DX_Botz/169 
+👉 t.me/DX_Botz/170
     
 join our Support Group,
 👉 @Dx_Support""")
