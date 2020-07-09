@@ -11,10 +11,10 @@ from telegram import ParseMode
 def attach(update, context):
   if update.message.reply_to_message == None:
     update.message.reply_text("""Reply to a media to get an attached Media. 
-  For more help watch this video,
-  👉 https://t.me/DX_Botz/169 
+For more help watch this video,
+👉 https://t.me/DX_Botz/169 
     
-  join @Dx_Support""")
+join @Dx_Support""")
   else:
     m = context.bot.forward_message("@" + Config.CHANNEL_USERNAME, update.effective_chat.id, update.message.reply_to_message.message_id)
     m_id = m.message_id
