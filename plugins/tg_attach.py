@@ -15,8 +15,8 @@ def attach(update, context):
 For more help watch this video,
 👉 t.me/DX_Botz/170
     
-join our Support Group,
-👉 @Dx_Support""")
+Join our Support Group,
+👉 @DX_Support""")
   else:
     m = context.bot.forward_message("@" + Config.CHANNEL_USERNAME, update.effective_chat.id, update.message.reply_to_message.message_id)
     m_id = m.message_id
